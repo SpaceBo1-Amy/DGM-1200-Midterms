@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: NewFishbowlAcces.ma
-//Last modified: Wed, Mar 20, 2024 09:32:17 PM
+//Last modified: Wed, Mar 20, 2024 10:05:03 PM
 //Codeset: UTF-8
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.4.1";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202310181224-69282f2959";
 fileInfo "osv" "Mac OS X 12.7.4";
-fileInfo "UUID" "DDF90EC5-4647-E6AD-CA60-60B7697A9258";
+fileInfo "UUID" "608478A7-0149-09E3-8AC3-B49FD09E0625";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "9EEAD410-7247-9D9C-9ED8-89B79F490EFB";
@@ -3373,7 +3373,7 @@ createNode polyTweakUV -n "polyTweakUV23";
 		 0.032858759 -0.012437105 0.031175643 -0.0065315962 0.033675492 -0.0039383769 0.032947391
 		 9.0718269e-05 0.033068001 0.0052238703 0.035503775 0.0077487826 0.039483964;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "348F3105-444E-6CA6-3E2D-029D099DF83A";
+	rename -uid "ABF88335-0C41-9DD4-DC81-AFB94794892F";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 52;
